@@ -1,23 +1,14 @@
 <template>
     <div class="logos-wrapper">
-        <h2>Find Best Logo</h2>
+        <h2 class="title-header">Find Best Logo</h2>
         <div class="item-logos">
-            <img src="" alt="">
+            <img class="logo" alt="StarBucks logo" src="../assets/starbucks.png">
         </div>
         <div class="item-logos">
-            <img src="" alt="">
+            <img class="logo" alt="Google logo" src="../assets/google.png">
         </div>
         <div class="item-logos">
-            <img src="" alt="">
-        </div>
-        <div class="item-logos">
-            <img src="" alt="">
-        </div>
-        <div class="item-logos">
-            <img src="" alt="">
-        </div>
-        <div class="item-logos">
-            <img src="" alt="">
+            <img class="logo" alt="Windows 10 logo" src="../assets/windows-10.png">
         </div>
     </div>
 </template>
@@ -29,6 +20,10 @@ export default {
 </script>
 
 <style scoped>
+    .title-header {
+        margin-bottom: 80px;
+    }
+
     .logos-wrapper {
         width: 70%;
         overflow: hidden;
@@ -41,6 +36,10 @@ export default {
         margin-bottom: 20px;
         width: 150px;
         height: 150px;
-        background-color: red;
+    }
+
+    .item-logos .logo {
+        width: 150px;
+        height: 150px;
     }
 </style>
